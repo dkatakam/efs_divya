@@ -8,9 +8,13 @@
 </head>
 <body>
 <div class="container">
+	<a href="http://localhost/efs_divya/public/" class="btn btn-success">Home</a>
     <a href="{{ action('CustomerController@index') }}">Customers</a> |
     <a href="{{ action('StockController@index') }}">Stocks</a> |
-    <a href="{{ action('InvestmentController@index') }}">Investments</a>
+    <a href="{{ action('InvestmentController@index') }}">Investments</a> |
+	<a href="{{ action('MutualfundController@index') }}">Mutualfunds</a> |
+	
+	
 </div>
 <hr>
 <div class="container">
